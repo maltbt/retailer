@@ -22,7 +22,7 @@ Your app is ready to be deployed!
 
 <hr>
 ### Code layout
-public/index.html
-src/index.js
-src/index.scss
+public/index.html<br>
+src/index.js<br>
+src/index.scss<br>
 src/products.json
