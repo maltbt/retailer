@@ -1,0 +1,85 @@
+$gutter: 10px;
+
+body {
+    
+    h1{
+        margin-top: 2*$gutter;
+    }
+    .card-header{
+        margin-bottom: 2*$gutter;
+    }
+    #shopping-basket-bar{
+        .input-group{
+            margin-top: $gutter;
+        }
+        margin-bottom: 0;
+        .sh-cart-content-wrap{
+            display: none;
+            margin-top: $gutter;
+            min-height: 100px;
+            height: auto;
+            background-color: #f1f1f7;
+            .prod-name-cart, .price, .shop-info{
+                color: #333;
+            }
+            #total-pre-voucher{
+                text-decoration: line-through;
+            }
+            position: relative;
+            padding: $gutter $gutter 6*$gutter $gutter;
+            .close-sh-cart{
+                position: absolute;
+                bottom: $gutter;
+                right: $gutter;
+                display: block;
+            }
+            .table{
+                margin-top: $gutter;
+                .header-blue{
+                    background-color: #17a2b8;
+                    color: #f8f9fa;
+                }
+                #grand-total-caption{
+                    width: 20%;
+                }
+            }
+        }
+    }
+
+    .product{ //.card
+        .card-body{
+            min-width: 200px;
+            padding-top: 0;
+            min-height: 180px;
+            position: relative;
+            
+            .input-group{
+                position: absolute;
+                bottom: $gutter;
+                .btn{
+                    width: 85%;
+                }
+            }
+        }
+    }
+    .nav{
+        margin-bottom: $gutter;
+        .nav-link{
+            margin-top: $gutter;
+            color : #17A2B8;
+            background-color : #DFD9D5;
+            border: 2px solid #FFF;
+            font-weight: bold;
+            max-width: 200px;
+            //&:last-child{
+            //    margin-right: 0;
+            //}
+            &.active{
+            color : #E37222;
+            background-color : #f3f0ec;
+            }
+        }
+        
+    }
+}
+
