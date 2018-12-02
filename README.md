@@ -21,7 +21,9 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 <hr>
+
 ### `Code layout`
+
 public/index.html<br>
 src/index.js<br>
 src/index.scss<br>
